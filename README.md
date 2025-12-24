@@ -84,7 +84,7 @@
 3. **Materials** (material_id, collection_id, title, content, material_type)
 4. **Chunks** (chunk_id, material_id, content, position)
 5. **Concepts** (concept_id, term, definition)
-6. **ChunkConcepts** (chunk_id, concept_id) - связь многие-ко-многим между нитями и концептами
+6. **ChunkConcepts** (chunk_id, concept_id) - промежуточная таблица для связи нитей и концептов
 7. **Flashcards** (flashcard_id, chunk_id, concept_id, question_text, answer_text)
 8. **Questions** (question_id, chunk_id, question_text, question_type, correct_answer, options)
 9. **Attempts** (attempt_id, user_id, flashcard_id, question_id, user_answer, is_correct, attempt_date)
